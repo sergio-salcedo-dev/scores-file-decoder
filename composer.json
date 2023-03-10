@@ -1,0 +1,9 @@
+{
+  "name": "technical-task/sergio-salcedo",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {}
+}

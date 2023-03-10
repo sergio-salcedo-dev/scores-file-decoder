@@ -1,0 +1,17 @@
+#!/bin/bash
+
+info() {
+    time=$(date '+%H:%M:%S')
+    echo -e "\033[94m$time | $1\033[39m"
+}
+
+success() {
+    time=$(date '+%H:%M:%S')
+    echo -e "\033[92m$time | $1\033[39m"
+}
+
+info "Initialising environment"
+
+composer install
+
+success "Environment successfully initialised"
